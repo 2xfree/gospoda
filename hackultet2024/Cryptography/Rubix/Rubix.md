@@ -4,21 +4,21 @@ For this task we had to rotate the rubix cube as shown in
 rubix_dokumentacija.pdf file. First rotation was F' 
 (front counter-clockwise) and after that the cube looked like this:
 
-![first rotation](challenge_files/first_rotation.png "First rotation")
+![first rotation](challenge_files/first_rotation.PNG "First rotation")
 
 After that we had to do the L (left side down) rotation:
 
-![second rotation](challenge_files/second_rotation.png "Second rotation")
+![second rotation](challenge_files/second_rotation.PNG "Second rotation")
 
 And finally the U (up to the left) rotation:
 
-![third rotation](challenge_files/third_rotation.png "Third rotation")
+![third rotation](challenge_files/third_rotation.PNG "Third rotation")
 
 Because we had some duplicates we had to switch them with missing
 characters (sorted from biggest to smallest) going from left to right.
 After that was done we got this square (with normal square to the right):
 
-![final square](challenge_files/final_square.png "Final square")
+![final square](challenge_files/final_square.PNG "Final square")
 
 Now we had to decrypt the flag XIFZNZA[NYZAZAA5TMAM], we know that 
 the flag starts with "CTF2024" so we already knew some characters
