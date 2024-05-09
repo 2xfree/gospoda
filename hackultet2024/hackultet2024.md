@@ -10,7 +10,7 @@
 ### Cryptography
 
 - [Rubix (80 points)](https://github.com/2xfree/gospoda/blob/main/hackultet2024/Cryptography/Rubix/Rubix.md)
-- [Naporni tjedan (150 points)](https://github.com/2xfree/gospoda/blob/main/hackultet2024/Cryptography/Naporni%20tjedan/Naporni_tjedan.md)
+- [Naporni tjedan (150 points)](https://github.com/2xfree/gospoda/blob/main/hackultet2024/Cryptography/Naporni_tjedan/Naporni_tjedan.md)
 
 ### Misc
 
