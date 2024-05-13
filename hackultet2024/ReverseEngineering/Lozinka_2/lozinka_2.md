@@ -5,7 +5,7 @@ Similarly to the first one, we get a remote addres and a binary.
 Dissasembling with Ghidra and looking at `main` we get:
 
 ```c
-  defined8 main(void)
+undefined8 main(void)
 
 {
   size_t sVar1;
