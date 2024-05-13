@@ -1,3 +1,46 @@
+# Duga (60 points)
 
+We are given the following hashed strings:
 
-TODO
+```text
+112c61a276d0376f2f6b25dd3a337b1d
+999d0cd62b8ea4c8cc007fa60dd7f242818b5349
+bcac9d1d8eab3713ae489224d0130c9468e7a0e3
+a87ff679a2f3e71d9181a67b7542122c
+1e5c2f367f02e47a8c160cda1cd9d91decbac441
+19b650660b253761af189682e03501dd
+e4da3b7fbbce2345d7772b0674a318d5
+16b06bd9b738835e2d134fe8d596e9ab0086a985
+8f14e45fceea167a5a36dedd4bea2543
+456f2361d677372141da13ecbc8f27b83f5b6a15
+902ba3cda1883801594b6e1b452790cc53948fda
+b261807d4663f1371171d57b7d40893f
+```
+
+We also get a clue that these strings are smaller pieces of a larger string, and then each hashed independently.
+
+Throwing this into a decryption tool like:
+
+https://hashes.com/en/decrypt/hash
+[hash decrypt](https://hashes.com/en/decrypt/hash)
+
+we get
+
+```text
+112c61a276d0376f2f6b25dd3a337b1d:CT
+16b06bd9b738835e2d134fe8d596e9ab0086a985:89
+19b650660b253761af189682e03501dd:863
+1e5c2f367f02e47a8c160cda1cd9d91decbac441:[
+456f2361d677372141da13ecbc8f27b83f5b6a15:494
+8f14e45fceea167a5a36dedd4bea2543:7
+902ba3cda1883801594b6e1b452790cc53948fda:7
+999d0cd62b8ea4c8cc007fa60dd7f242818b5349:F2
+a87ff679a2f3e71d9181a67b7542122c:4
+b261807d4663f1371171d57b7d40893f:4]
+bcac9d1d8eab3713ae489224d0130c9468e7a0e3:02
+e4da3b7fbbce2345d7772b0674a318d5:5
+```
+
+And from this we can construct the flag.
+
+CTF2024[863589749474]
